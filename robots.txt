@@ -1,8 +1,6 @@
 User-agent: *
 Allow: /
 
-# Sitemap
 Sitemap: https://acheter-avis.com/sitemap.xml
 
-# Crawl-delay pour eviter la surcharge
 Crawl-delay: 1
