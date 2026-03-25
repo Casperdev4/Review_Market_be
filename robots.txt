@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://acheter-avis.com/sitemap.xml
-
-Crawl-delay: 1
+Sitemap: https://avis-market.be/sitemap.xml
