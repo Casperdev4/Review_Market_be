@@ -61,31 +61,24 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "Avis Google Elagueur Belgique",
-        "provider": {
-            "@type": "Organization",
-            "name": "Avis Market",
-            "logo": "https://acheter-avis.com/logo.png"
-        },
-        "areaServed": [
-            {"@type": "Country", "name": "Belgique"},
-            {"@type": "City", "name": "Bruxelles"},
-            {"@type": "City", "name": "Anvers"},
-            {"@type": "City", "name": "Liege"},
-            {"@type": "City", "name": "Gand"},
-            {"@type": "City", "name": "Charleroi"},
-            {"@type": "City", "name": "Namur"},
-            {"@type": "City", "name": "Bruges"},
-            {"@type": "City", "name": "Mons"},
-            {"@type": "City", "name": "Louvain"},
-            {"@type": "City", "name": "Hasselt"},
-            {"@type": "City", "name": "Kortrijk"},
-            {"@type": "City", "name": "Mechelen"},
-            {"@type": "City", "name": "Ostende"},
-            {"@type": "City", "name": "Tournai"}
-        ],
-        "description": "Service professionnel d'avis Google destine aux elagueurs belges. Avis mettant en valeur la securite, la maitrise technique et la proprete des chantiers d'elagage."
+        "@type": "Organization",
+        "name": "Avis Market",
+        "url": "https://acheter-avis.com",
+        "logo": "https://acheter-avis.com/logo.png",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Nos services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Avis Google Elagueur Belgique",
+                        "url": "https://acheter-avis.com/avis-google-elagueur.html"
+                    }
+                }
+            ]
+        }
     }
     </script>
     <script type="application/ld+json">
