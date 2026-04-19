@@ -41,226 +41,131 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
+        "@graph": [
             {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Accueil",
-                "item": "https://acheter-avis.com/"
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Avis Google Restaurant Belgique",
-                "item": "https://acheter-avis.com/avis-google-restaurant.html"
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Avis Market",
-        "url": "https://acheter-avis.com",
-        "logo": "https://acheter-avis.com/logo.png",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Nos services",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Accueil",
+                        "item": "https://acheter-avis.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
                         "name": "Avis Google Restaurant Belgique",
-                        "url": "https://acheter-avis.com/avis-google-restaurant.html"
+                        "item": "https://acheter-avis.com/avis-google-restaurant.html"
                     }
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Vos avis pour restaurant font-ils reference a des plats precis de ma carte ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Tout a fait. Chaque commentaire est redige en s'appuyant sur votre menu et votre style culinaire. Nos redacteurs evoquent des specialites, l'atmosphere et la qualite du service afin de garantir un rendu parfaitement credible pour les clients belges."
-                }
+                ]
             },
             {
-                "@type": "Question",
-                "name": "Quel volume d'avis Google recommandez-vous pour un restaurant qui vient d'ouvrir en Belgique ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Pour un nouvel etablissement belge, nous preconisons au minimum la formule de 50 avis. Ce volume permet de batir une base de confiance solide et d'atteindre rapidement une notation superieure a 4,5 etoiles sur Google Maps."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Peut-on integrer des photos de plats dans les avis ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Oui, il vous suffit de nous transmettre vos propres cliches culinaires. Nous les associerons aux avis publies afin de renforcer leur authenticite et de susciter l'envie chez vos futurs convives."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Des commentaires defavorables plombent la note de mon restaurant, comment y remedier ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Nous disposons de deux approches complementaires : l'ajout d'avis positifs pour contrebalancer les retours negatifs et rehausser votre notation, ou la suppression des avis injustifies via notre service dedie."
-                }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Nos Offres Avis Positifs",
-        "itemListElement": [
-            {
-                "@type": "Product",
-                "position": 1,
-                "name": "25 Avis Positifs + 5 offerts",
-                "description": "Formule de 25 avis Google positifs avec comptes belges verifies, textes sur mesure, garantie a vie et assistance 24/7.",
-                "image": "https://acheter-avis.com/logo.png",
-                "offers": {
-                    "@type": "Offer",
-                    "price": "99",
-                    "priceCurrency": "EUR",
-                    "availability": "https://schema.org/InStock",
-                    "shippingDetails": {
-                        "@type": "OfferShippingDetails",
-                        "shippingRate": {
-                            "@type": "MonetaryAmount",
-                            "value": "0",
-                            "currency": "EUR"
-                        },
-                        "deliveryTime": {
-                            "@type": "ShippingDeliveryTime",
-                            "handlingTime": {
-                                "@type": "QuantitativeValue",
-                                "minValue": 1,
-                                "maxValue": 2,
-                                "unitCode": "DAY"
-                            },
-                            "transitTime": {
-                                "@type": "QuantitativeValue",
-                                "minValue": 12,
-                                "maxValue": 30,
-                                "unitCode": "DAY"
+                "@type": "Organization",
+                "name": "Avis Market",
+                "url": "https://acheter-avis.com",
+                "logo": "https://acheter-avis.com/logo.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Nos services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "avis google restaurant belgique",
+                                "url": "https://acheter-avis.com/avis-google-restaurant.html"
                             }
-                        },
-                        "shippingDestination": {
-                            "@type": "DefinedRegion",
-                            "addressCountry": "BE"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Vos avis pour restaurant font-ils reference a des plats precis de ma carte ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Tout a fait. Chaque commentaire est redige en s'appuyant sur votre menu et votre style culinaire. Nos redacteurs evoquent des specialites, l'atmosphere et la qualite du service afin de garantir un rendu parfaitement credible pour les clients belges."
                         }
                     },
-                    "hasMerchantReturnPolicy": {
-                        "@type": "MerchantReturnPolicy",
-                        "applicableCountry": "BE",
-                        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-                    }
-                }
-            },
-            {
-                "@type": "Product",
-                "position": 2,
-                "name": "50 Avis Positifs + 10 offerts",
-                "description": "Formule de 50 avis Google positifs avec comptes belges verifies, textes sur mesure, garantie a vie et assistance 24/7.",
-                "image": "https://acheter-avis.com/logo.png",
-                "offers": {
-                    "@type": "Offer",
-                    "price": "169",
-                    "priceCurrency": "EUR",
-                    "availability": "https://schema.org/InStock",
-                    "shippingDetails": {
-                        "@type": "OfferShippingDetails",
-                        "shippingRate": {
-                            "@type": "MonetaryAmount",
-                            "value": "0",
-                            "currency": "EUR"
-                        },
-                        "deliveryTime": {
-                            "@type": "ShippingDeliveryTime",
-                            "handlingTime": {
-                                "@type": "QuantitativeValue",
-                                "minValue": 1,
-                                "maxValue": 2,
-                                "unitCode": "DAY"
-                            },
-                            "transitTime": {
-                                "@type": "QuantitativeValue",
-                                "minValue": 25,
-                                "maxValue": 60,
-                                "unitCode": "DAY"
-                            }
-                        },
-                        "shippingDestination": {
-                            "@type": "DefinedRegion",
-                            "addressCountry": "BE"
+                    {
+                        "@type": "Question",
+                        "name": "Quel volume d'avis Google recommandez-vous pour un restaurant qui vient d'ouvrir en Belgique ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Pour un nouvel etablissement belge, nous preconisons au minimum la formule de 50 avis. Ce volume permet de batir une base de confiance solide et d'atteindre rapidement une notation superieure a 4,5 etoiles sur Google Maps."
                         }
                     },
-                    "hasMerchantReturnPolicy": {
-                        "@type": "MerchantReturnPolicy",
-                        "applicableCountry": "BE",
-                        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-                    }
-                }
-            },
-            {
-                "@type": "Product",
-                "position": 3,
-                "name": "100 Avis Positifs + 20 offerts",
-                "description": "Formule de 100 avis Google positifs avec comptes belges verifies, textes sur mesure, garantie a vie et assistance 24/7.",
-                "image": "https://acheter-avis.com/logo.png",
-                "offers": {
-                    "@type": "Offer",
-                    "price": "279",
-                    "priceCurrency": "EUR",
-                    "availability": "https://schema.org/InStock",
-                    "shippingDetails": {
-                        "@type": "OfferShippingDetails",
-                        "shippingRate": {
-                            "@type": "MonetaryAmount",
-                            "value": "0",
-                            "currency": "EUR"
-                        },
-                        "deliveryTime": {
-                            "@type": "ShippingDeliveryTime",
-                            "handlingTime": {
-                                "@type": "QuantitativeValue",
-                                "minValue": 1,
-                                "maxValue": 2,
-                                "unitCode": "DAY"
-                            },
-                            "transitTime": {
-                                "@type": "QuantitativeValue",
-                                "minValue": 50,
-                                "maxValue": 120,
-                                "unitCode": "DAY"
-                            }
-                        },
-                        "shippingDestination": {
-                            "@type": "DefinedRegion",
-                            "addressCountry": "BE"
+                    {
+                        "@type": "Question",
+                        "name": "Peut-on integrer des photos de plats dans les avis ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Oui, il vous suffit de nous transmettre vos propres cliches culinaires. Nous les associerons aux avis publies afin de renforcer leur authenticite et de susciter l'envie chez vos futurs convives."
                         }
                     },
-                    "hasMerchantReturnPolicy": {
-                        "@type": "MerchantReturnPolicy",
-                        "applicableCountry": "BE",
-                        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                    {
+                        "@type": "Question",
+                        "name": "Des commentaires defavorables plombent la note de mon restaurant, comment y remedier ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Nous disposons de deux approches complementaires : l'ajout d'avis positifs pour contrebalancer les retours negatifs et rehausser votre notation, ou la suppression des avis injustifies via notre service dedie."
+                        }
                     }
-                }
+                ]
+            },
+            {
+                "@type": "ItemList",
+                "name": "Nos Offres Avis Positifs",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Avis Positifs + 5 offerts",
+                            "description": "Pack 25 Avis Positifs + 5 offerts.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "99",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Avis Positifs + 10 offerts",
+                            "description": "Pack 50 Avis Positifs + 10 offerts.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "169",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Avis Positifs + 20 offerts",
+                            "description": "Pack 100 Avis Positifs + 20 offerts.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "279",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    }
+                ]
             }
         ]
     }

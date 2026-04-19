@@ -41,226 +41,131 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
+        "@graph": [
             {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Accueil",
-                "item": "https://acheter-avis.com/"
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Avis Google H&ocirc;tel Belgique",
-                "item": "https://acheter-avis.com/avis-google-hotel.html"
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Avis Market",
-        "url": "https://acheter-avis.com",
-        "logo": "https://acheter-avis.com/logo.png",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Nos services",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Accueil",
+                        "item": "https://acheter-avis.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
                         "name": "Avis Google H&ocirc;tel Belgique",
-                        "url": "https://acheter-avis.com/avis-google-hotel.html"
+                        "item": "https://acheter-avis.com/avis-google-hotel.html"
                     }
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Vos avis Google pour hotel evoquent-ils la qualite des chambres et de l'accueil ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Bien entendu. Chaque avis est elabore sur mesure et aborde la proprete des chambres, le confort de la literie, la qualite du petit-dejeuner, l'amabilite du personnel et l'emplacement de votre hotel en Belgique."
-                }
+                ]
             },
             {
-                "@type": "Question",
-                "name": "Quel volume d'avis Google est necessaire pour qu'un hotel belge soit credible ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Pour inspirer veritablement confiance, un hotel en Belgique devrait disposer d'au minimum 50 a 100 avis. Les voyageurs confrontent methodiquement les evaluations de plusieurs etablissements et se tournent vers ceux qui affichent le plus de retours favorables."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Les avis Google pesent-ils autant que Booking ou TripAdvisor pour un hotel belge ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Sans aucun doute. Google s'est impose comme le premier reflexe des voyageurs avant toute reservation. De nombreux clients verifient la notation Google meme lorsqu'ils finalisent leur sejour sur d'autres plateformes comme Booking ou TripAdvisor."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Est-il possible de commander des avis Google pour plusieurs hotels en Belgique ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Tout a fait. Nous prenons en charge les commandes multi-etablissements a travers toute la Belgique. Apres votre achat, contactez-nous via WhatsApp pour preciser les differentes fiches Google concernees a Bruxelles, Anvers, Liege ou ailleurs."
-                }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Nos Offres Avis Positifs",
-        "itemListElement": [
-            {
-                "@type": "Product",
-                "position": 1,
-                "name": "25 Avis Positifs + 5 offerts",
-                "description": "Formule de 25 avis Google positifs avec comptes belges verifies, textes sur mesure, garantie a vie et assistance 24/7.",
-                "image": "https://acheter-avis.com/logo.png",
-                "offers": {
-                    "@type": "Offer",
-                    "price": "99",
-                    "priceCurrency": "EUR",
-                    "availability": "https://schema.org/InStock",
-                    "shippingDetails": {
-                        "@type": "OfferShippingDetails",
-                        "shippingRate": {
-                            "@type": "MonetaryAmount",
-                            "value": "0",
-                            "currency": "EUR"
-                        },
-                        "deliveryTime": {
-                            "@type": "ShippingDeliveryTime",
-                            "handlingTime": {
-                                "@type": "QuantitativeValue",
-                                "minValue": 1,
-                                "maxValue": 2,
-                                "unitCode": "DAY"
-                            },
-                            "transitTime": {
-                                "@type": "QuantitativeValue",
-                                "minValue": 12,
-                                "maxValue": 30,
-                                "unitCode": "DAY"
+                "@type": "Organization",
+                "name": "Avis Market",
+                "url": "https://acheter-avis.com",
+                "logo": "https://acheter-avis.com/logo.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Nos services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "avis google h&ocirc;tel belgique",
+                                "url": "https://acheter-avis.com/avis-google-hotel.html"
                             }
-                        },
-                        "shippingDestination": {
-                            "@type": "DefinedRegion",
-                            "addressCountry": "BE"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Vos avis Google pour hotel evoquent-ils la qualite des chambres et de l'accueil ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Bien entendu. Chaque avis est elabore sur mesure et aborde la proprete des chambres, le confort de la literie, la qualite du petit-dejeuner, l'amabilite du personnel et l'emplacement de votre hotel en Belgique."
                         }
                     },
-                    "hasMerchantReturnPolicy": {
-                        "@type": "MerchantReturnPolicy",
-                        "applicableCountry": "BE",
-                        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-                    }
-                }
-            },
-            {
-                "@type": "Product",
-                "position": 2,
-                "name": "50 Avis Positifs + 10 offerts",
-                "description": "Formule de 50 avis Google positifs avec comptes belges verifies, textes sur mesure, garantie a vie et assistance 24/7.",
-                "image": "https://acheter-avis.com/logo.png",
-                "offers": {
-                    "@type": "Offer",
-                    "price": "169",
-                    "priceCurrency": "EUR",
-                    "availability": "https://schema.org/InStock",
-                    "shippingDetails": {
-                        "@type": "OfferShippingDetails",
-                        "shippingRate": {
-                            "@type": "MonetaryAmount",
-                            "value": "0",
-                            "currency": "EUR"
-                        },
-                        "deliveryTime": {
-                            "@type": "ShippingDeliveryTime",
-                            "handlingTime": {
-                                "@type": "QuantitativeValue",
-                                "minValue": 1,
-                                "maxValue": 2,
-                                "unitCode": "DAY"
-                            },
-                            "transitTime": {
-                                "@type": "QuantitativeValue",
-                                "minValue": 25,
-                                "maxValue": 60,
-                                "unitCode": "DAY"
-                            }
-                        },
-                        "shippingDestination": {
-                            "@type": "DefinedRegion",
-                            "addressCountry": "BE"
+                    {
+                        "@type": "Question",
+                        "name": "Quel volume d'avis Google est necessaire pour qu'un hotel belge soit credible ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Pour inspirer veritablement confiance, un hotel en Belgique devrait disposer d'au minimum 50 a 100 avis. Les voyageurs confrontent methodiquement les evaluations de plusieurs etablissements et se tournent vers ceux qui affichent le plus de retours favorables."
                         }
                     },
-                    "hasMerchantReturnPolicy": {
-                        "@type": "MerchantReturnPolicy",
-                        "applicableCountry": "BE",
-                        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-                    }
-                }
-            },
-            {
-                "@type": "Product",
-                "position": 3,
-                "name": "100 Avis Positifs + 20 offerts",
-                "description": "Formule de 100 avis Google positifs avec comptes belges verifies, textes sur mesure, garantie a vie et assistance 24/7.",
-                "image": "https://acheter-avis.com/logo.png",
-                "offers": {
-                    "@type": "Offer",
-                    "price": "279",
-                    "priceCurrency": "EUR",
-                    "availability": "https://schema.org/InStock",
-                    "shippingDetails": {
-                        "@type": "OfferShippingDetails",
-                        "shippingRate": {
-                            "@type": "MonetaryAmount",
-                            "value": "0",
-                            "currency": "EUR"
-                        },
-                        "deliveryTime": {
-                            "@type": "ShippingDeliveryTime",
-                            "handlingTime": {
-                                "@type": "QuantitativeValue",
-                                "minValue": 1,
-                                "maxValue": 2,
-                                "unitCode": "DAY"
-                            },
-                            "transitTime": {
-                                "@type": "QuantitativeValue",
-                                "minValue": 50,
-                                "maxValue": 120,
-                                "unitCode": "DAY"
-                            }
-                        },
-                        "shippingDestination": {
-                            "@type": "DefinedRegion",
-                            "addressCountry": "BE"
+                    {
+                        "@type": "Question",
+                        "name": "Les avis Google pesent-ils autant que Booking ou TripAdvisor pour un hotel belge ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Sans aucun doute. Google s'est impose comme le premier reflexe des voyageurs avant toute reservation. De nombreux clients verifient la notation Google meme lorsqu'ils finalisent leur sejour sur d'autres plateformes comme Booking ou TripAdvisor."
                         }
                     },
-                    "hasMerchantReturnPolicy": {
-                        "@type": "MerchantReturnPolicy",
-                        "applicableCountry": "BE",
-                        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                    {
+                        "@type": "Question",
+                        "name": "Est-il possible de commander des avis Google pour plusieurs hotels en Belgique ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Tout a fait. Nous prenons en charge les commandes multi-etablissements a travers toute la Belgique. Apres votre achat, contactez-nous via WhatsApp pour preciser les differentes fiches Google concernees a Bruxelles, Anvers, Liege ou ailleurs."
+                        }
                     }
-                }
+                ]
+            },
+            {
+                "@type": "ItemList",
+                "name": "Nos Offres Avis Positifs",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Avis Positifs + 5 offerts",
+                            "description": "Pack 25 Avis Positifs + 5 offerts.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "99",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Avis Positifs + 10 offerts",
+                            "description": "Pack 50 Avis Positifs + 10 offerts.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "169",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Avis Positifs + 20 offerts",
+                            "description": "Pack 100 Avis Positifs + 20 offerts.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "279",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    }
+                ]
             }
         ]
     }

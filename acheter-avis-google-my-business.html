@@ -38,188 +38,131 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://acheter-avis.com/"},
-            {"@type": "ListItem", "position": 2, "name": "Acheter Avis Google My Business", "item": "https://acheter-avis.com/acheter-avis-google-my-business.html"}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Avis Market",
-        "url": "https://acheter-avis.com",
-        "logo": "https://acheter-avis.com/logo.png",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Nos services",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Acheter Avis Google My Business en Belgique",
-                        "url": "https://acheter-avis.com/acheter-avis-google-my-business.html"
-                    }
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {"@type": "Question", "name": "Qu'est-ce que Google My Business exactement ?", "acceptedAnswer": {"@type": "Answer", "text": "Google My Business, rebaptise Google Business Profile, est un service gratuit de Google permettant aux entreprises belges de gerer leur visibilite sur Google Search et Google Maps. Les avis des clients constituent un element determinant pour le referencement local."}},
-            {"@type": "Question", "name": "Quel est le nombre ideal d'avis sur une fiche Google My Business ?", "acceptedAnswer": {"@type": "Answer", "text": "Pour inspirer confiance, un minimum de 30 avis est conseille. Plus votre fiche accumule des avis positifs et actuels, plus elle gagne en visibilite dans les resultats de recherche locaux en Belgique."}},
-            {"@type": "Question", "name": "Les avis commandes s'affichent-ils sur ma fiche GMB ?", "acceptedAnswer": {"@type": "Answer", "text": "Tout a fait. Chaque avis est publie directement sur votre fiche Google My Business. Il apparait aussi bien sur Google Maps que dans les resultats de recherche Google standard."}},
-            {"@type": "Question", "name": "Quel est l'impact des avis GMB sur le referencement local ?", "acceptedAnswer": {"@type": "Answer", "text": "L'impact est considerable. Google prend en compte le volume, la qualite et la frequence des avis pour etablir le classement local. Un nombre eleve d'avis favorables ameliore directement le positionnement de votre fiche."}}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Nos Offres Avis Positifs",
-        "itemListElement": [
+        "@graph": [
             {
-                "@type": "Product",
-                "position": 1,
-                "name": "25 Avis Positifs + 5 offerts",
-                "description": "Pack de 25 avis Google positifs avec comptes belges, textes personnalises, garantie a vie et service client 24/7.",
-                "image": "https://acheter-avis.com/logo.png",
-                "offers": {
-                    "@type": "Offer",
-                    "price": "99",
-                    "priceCurrency": "EUR",
-                    "availability": "https://schema.org/InStock",
-                    "shippingDetails": {
-                        "@type": "OfferShippingDetails",
-                        "shippingRate": {
-                            "@type": "MonetaryAmount",
-                            "value": "0",
-                            "currency": "EUR"
-                        },
-                        "deliveryTime": {
-                            "@type": "ShippingDeliveryTime",
-                            "handlingTime": {
-                                "@type": "QuantitativeValue",
-                                "minValue": 1,
-                                "maxValue": 2,
-                                "unitCode": "DAY"
-                            },
-                            "transitTime": {
-                                "@type": "QuantitativeValue",
-                                "minValue": 12,
-                                "maxValue": 30,
-                                "unitCode": "DAY"
-                            }
-                        },
-                        "shippingDestination": {
-                            "@type": "DefinedRegion",
-                            "addressCountry": "BE"
-                        }
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Accueil",
+                        "item": "https://acheter-avis.com/"
                     },
-                    "hasMerchantReturnPolicy": {
-                        "@type": "MerchantReturnPolicy",
-                        "applicableCountry": "BE",
-                        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Acheter Avis Google My Business",
+                        "item": "https://acheter-avis.com/acheter-avis-google-my-business.html"
                     }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "name": "Avis Market",
+                "url": "https://acheter-avis.com",
+                "logo": "https://acheter-avis.com/logo.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Nos services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "acheter avis google my business en belgique",
+                                "url": "https://acheter-avis.com/acheter-avis-google-my-business.html"
+                            }
+                        }
+                    ]
                 }
             },
             {
-                "@type": "Product",
-                "position": 2,
-                "name": "50 Avis Positifs + 10 offerts",
-                "description": "Pack de 50 avis Google positifs avec comptes belges, textes personnalises, garantie a vie et service client 24/7.",
-                "image": "https://acheter-avis.com/logo.png",
-                "offers": {
-                    "@type": "Offer",
-                    "price": "169",
-                    "priceCurrency": "EUR",
-                    "availability": "https://schema.org/InStock",
-                    "shippingDetails": {
-                        "@type": "OfferShippingDetails",
-                        "shippingRate": {
-                            "@type": "MonetaryAmount",
-                            "value": "0",
-                            "currency": "EUR"
-                        },
-                        "deliveryTime": {
-                            "@type": "ShippingDeliveryTime",
-                            "handlingTime": {
-                                "@type": "QuantitativeValue",
-                                "minValue": 1,
-                                "maxValue": 2,
-                                "unitCode": "DAY"
-                            },
-                            "transitTime": {
-                                "@type": "QuantitativeValue",
-                                "minValue": 25,
-                                "maxValue": 60,
-                                "unitCode": "DAY"
-                            }
-                        },
-                        "shippingDestination": {
-                            "@type": "DefinedRegion",
-                            "addressCountry": "BE"
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Qu'est-ce que Google My Business exactement ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Google My Business, rebaptise Google Business Profile, est un service gratuit de Google permettant aux entreprises belges de gerer leur visibilite sur Google Search et Google Maps. Les avis des clients constituent un element determinant pour le referencement local."
                         }
                     },
-                    "hasMerchantReturnPolicy": {
-                        "@type": "MerchantReturnPolicy",
-                        "applicableCountry": "BE",
-                        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                    {
+                        "@type": "Question",
+                        "name": "Quel est le nombre ideal d'avis sur une fiche Google My Business ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Pour inspirer confiance, un minimum de 30 avis est conseille. Plus votre fiche accumule des avis positifs et actuels, plus elle gagne en visibilite dans les resultats de recherche locaux en Belgique."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Les avis commandes s'affichent-ils sur ma fiche GMB ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Tout a fait. Chaque avis est publie directement sur votre fiche Google My Business. Il apparait aussi bien sur Google Maps que dans les resultats de recherche Google standard."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Quel est l'impact des avis GMB sur le referencement local ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "L'impact est considerable. Google prend en compte le volume, la qualite et la frequence des avis pour etablir le classement local. Un nombre eleve d'avis favorables ameliore directement le positionnement de votre fiche."
+                        }
                     }
-                }
+                ]
             },
             {
-                "@type": "Product",
-                "position": 3,
-                "name": "100 Avis Positifs + 20 offerts",
-                "description": "Pack de 100 avis Google positifs avec comptes belges, textes personnalises, garantie a vie et service client 24/7.",
-                "image": "https://acheter-avis.com/logo.png",
-                "offers": {
-                    "@type": "Offer",
-                    "price": "279",
-                    "priceCurrency": "EUR",
-                    "availability": "https://schema.org/InStock",
-                    "shippingDetails": {
-                        "@type": "OfferShippingDetails",
-                        "shippingRate": {
-                            "@type": "MonetaryAmount",
-                            "value": "0",
-                            "currency": "EUR"
-                        },
-                        "deliveryTime": {
-                            "@type": "ShippingDeliveryTime",
-                            "handlingTime": {
-                                "@type": "QuantitativeValue",
-                                "minValue": 1,
-                                "maxValue": 2,
-                                "unitCode": "DAY"
-                            },
-                            "transitTime": {
-                                "@type": "QuantitativeValue",
-                                "minValue": 50,
-                                "maxValue": 120,
-                                "unitCode": "DAY"
+                "@type": "ItemList",
+                "name": "Nos Offres Avis Positifs",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Avis Positifs + 5 offerts",
+                            "description": "Pack 25 Avis Positifs + 5 offerts.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "99",
+                                "priceCurrency": "EUR"
                             }
-                        },
-                        "shippingDestination": {
-                            "@type": "DefinedRegion",
-                            "addressCountry": "BE"
                         }
                     },
-                    "hasMerchantReturnPolicy": {
-                        "@type": "MerchantReturnPolicy",
-                        "applicableCountry": "BE",
-                        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Avis Positifs + 10 offerts",
+                            "description": "Pack 50 Avis Positifs + 10 offerts.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "169",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Avis Positifs + 20 offerts",
+                            "description": "Pack 100 Avis Positifs + 20 offerts.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "279",
+                                "priceCurrency": "EUR"
+                            }
+                        }
                     }
-                }
+                ]
             }
         ]
     }

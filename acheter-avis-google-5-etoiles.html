@@ -41,226 +41,131 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
+        "@graph": [
             {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Accueil",
-                "item": "https://acheter-avis.com/"
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Acheter Avis Google 5 Etoiles",
-                "item": "https://acheter-avis.com/acheter-avis-google-5-etoiles.html"
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Avis Market",
-        "url": "https://acheter-avis.com",
-        "logo": "https://acheter-avis.com/logo.png",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Nos services",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Accueil",
+                        "item": "https://acheter-avis.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
                         "name": "Acheter Avis Google 5 Etoiles",
-                        "url": "https://acheter-avis.com/acheter-avis-google-5-etoiles.html"
+                        "item": "https://acheter-avis.com/acheter-avis-google-5-etoiles.html"
                     }
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Tous les avis commandes sont-ils notes 5 etoiles ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Par defaut, la totalite de nos avis porte la note maximale de 5 etoiles. Si vous preferez un melange plus realiste incluant quelques notes de 4 etoiles, nous ajustons la livraison selon vos souhaits."
-                }
+                ]
             },
             {
-                "@type": "Question",
-                "name": "Quel volume d'avis 5 etoiles est necessaire pour passer a 4,5 de moyenne ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Le nombre requis varie en fonction de votre note actuelle et du volume d'avis deja publies. Echangez avec nous sur WhatsApp apres votre commande pour obtenir un calcul precis adapte a votre situation."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Est-ce qu'une note parfaite de 5 etoiles parait credible aux yeux des clients ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Les consommateurs percoivent une note entre 4,5 et 4,9 comme la plus fiable. Si votre moyenne est deja haute, nous pouvons integrer quelques avis a 4 etoiles pour un rendu encore plus authentique."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Sous quel delai ma note Google commence-t-elle a monter ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Les tout premiers avis 5 etoiles apparaissent dans les 24 a 48 heures. A raison de 1 a 2 avis quotidiens, votre note evolue graduellement de facon naturelle au cours des semaines suivantes."
-                }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Nos Offres Avis Positifs",
-        "itemListElement": [
-            {
-                "@type": "Product",
-                "position": 1,
-                "name": "25 Avis Positifs + 5 offerts",
-                "description": "Pack de 25 avis Google positifs avec comptes belges, textes personnalises, garantie a vie et service client 24/7.",
-                "image": "https://acheter-avis.com/logo.png",
-                "offers": {
-                    "@type": "Offer",
-                    "price": "99",
-                    "priceCurrency": "EUR",
-                    "availability": "https://schema.org/InStock",
-                    "shippingDetails": {
-                        "@type": "OfferShippingDetails",
-                        "shippingRate": {
-                            "@type": "MonetaryAmount",
-                            "value": "0",
-                            "currency": "EUR"
-                        },
-                        "deliveryTime": {
-                            "@type": "ShippingDeliveryTime",
-                            "handlingTime": {
-                                "@type": "QuantitativeValue",
-                                "minValue": 1,
-                                "maxValue": 2,
-                                "unitCode": "DAY"
-                            },
-                            "transitTime": {
-                                "@type": "QuantitativeValue",
-                                "minValue": 12,
-                                "maxValue": 30,
-                                "unitCode": "DAY"
+                "@type": "Organization",
+                "name": "Avis Market",
+                "url": "https://acheter-avis.com",
+                "logo": "https://acheter-avis.com/logo.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Nos services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "acheter avis google 5 etoiles",
+                                "url": "https://acheter-avis.com/acheter-avis-google-5-etoiles.html"
                             }
-                        },
-                        "shippingDestination": {
-                            "@type": "DefinedRegion",
-                            "addressCountry": "BE"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Tous les avis commandes sont-ils notes 5 etoiles ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Par defaut, la totalite de nos avis porte la note maximale de 5 etoiles. Si vous preferez un melange plus realiste incluant quelques notes de 4 etoiles, nous ajustons la livraison selon vos souhaits."
                         }
                     },
-                    "hasMerchantReturnPolicy": {
-                        "@type": "MerchantReturnPolicy",
-                        "applicableCountry": "BE",
-                        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-                    }
-                }
-            },
-            {
-                "@type": "Product",
-                "position": 2,
-                "name": "50 Avis Positifs + 10 offerts",
-                "description": "Pack de 50 avis Google positifs avec comptes belges, textes personnalises, garantie a vie et service client 24/7.",
-                "image": "https://acheter-avis.com/logo.png",
-                "offers": {
-                    "@type": "Offer",
-                    "price": "169",
-                    "priceCurrency": "EUR",
-                    "availability": "https://schema.org/InStock",
-                    "shippingDetails": {
-                        "@type": "OfferShippingDetails",
-                        "shippingRate": {
-                            "@type": "MonetaryAmount",
-                            "value": "0",
-                            "currency": "EUR"
-                        },
-                        "deliveryTime": {
-                            "@type": "ShippingDeliveryTime",
-                            "handlingTime": {
-                                "@type": "QuantitativeValue",
-                                "minValue": 1,
-                                "maxValue": 2,
-                                "unitCode": "DAY"
-                            },
-                            "transitTime": {
-                                "@type": "QuantitativeValue",
-                                "minValue": 25,
-                                "maxValue": 60,
-                                "unitCode": "DAY"
-                            }
-                        },
-                        "shippingDestination": {
-                            "@type": "DefinedRegion",
-                            "addressCountry": "BE"
+                    {
+                        "@type": "Question",
+                        "name": "Quel volume d'avis 5 etoiles est necessaire pour passer a 4,5 de moyenne ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Le nombre requis varie en fonction de votre note actuelle et du volume d'avis deja publies. Echangez avec nous sur WhatsApp apres votre commande pour obtenir un calcul precis adapte a votre situation."
                         }
                     },
-                    "hasMerchantReturnPolicy": {
-                        "@type": "MerchantReturnPolicy",
-                        "applicableCountry": "BE",
-                        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-                    }
-                }
-            },
-            {
-                "@type": "Product",
-                "position": 3,
-                "name": "100 Avis Positifs + 20 offerts",
-                "description": "Pack de 100 avis Google positifs avec comptes belges, textes personnalises, garantie a vie et service client 24/7.",
-                "image": "https://acheter-avis.com/logo.png",
-                "offers": {
-                    "@type": "Offer",
-                    "price": "279",
-                    "priceCurrency": "EUR",
-                    "availability": "https://schema.org/InStock",
-                    "shippingDetails": {
-                        "@type": "OfferShippingDetails",
-                        "shippingRate": {
-                            "@type": "MonetaryAmount",
-                            "value": "0",
-                            "currency": "EUR"
-                        },
-                        "deliveryTime": {
-                            "@type": "ShippingDeliveryTime",
-                            "handlingTime": {
-                                "@type": "QuantitativeValue",
-                                "minValue": 1,
-                                "maxValue": 2,
-                                "unitCode": "DAY"
-                            },
-                            "transitTime": {
-                                "@type": "QuantitativeValue",
-                                "minValue": 50,
-                                "maxValue": 120,
-                                "unitCode": "DAY"
-                            }
-                        },
-                        "shippingDestination": {
-                            "@type": "DefinedRegion",
-                            "addressCountry": "BE"
+                    {
+                        "@type": "Question",
+                        "name": "Est-ce qu'une note parfaite de 5 etoiles parait credible aux yeux des clients ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Les consommateurs percoivent une note entre 4,5 et 4,9 comme la plus fiable. Si votre moyenne est deja haute, nous pouvons integrer quelques avis a 4 etoiles pour un rendu encore plus authentique."
                         }
                     },
-                    "hasMerchantReturnPolicy": {
-                        "@type": "MerchantReturnPolicy",
-                        "applicableCountry": "BE",
-                        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                    {
+                        "@type": "Question",
+                        "name": "Sous quel delai ma note Google commence-t-elle a monter ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Les tout premiers avis 5 etoiles apparaissent dans les 24 a 48 heures. A raison de 1 a 2 avis quotidiens, votre note evolue graduellement de facon naturelle au cours des semaines suivantes."
+                        }
                     }
-                }
+                ]
+            },
+            {
+                "@type": "ItemList",
+                "name": "Nos Offres Avis Positifs",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Avis Positifs + 5 offerts",
+                            "description": "Pack 25 Avis Positifs + 5 offerts.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "99",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Avis Positifs + 10 offerts",
+                            "description": "Pack 50 Avis Positifs + 10 offerts.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "169",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Avis Positifs + 20 offerts",
+                            "description": "Pack 100 Avis Positifs + 20 offerts.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "279",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    }
+                ]
             }
         ]
     }
